@@ -111,7 +111,9 @@ int main(int argc, char **argv) {
         continue;
 
       if (showList) {
-        printf("title=\"%s\" size=%gx%g id=%d\n", currentWindowTitle.UTF8String,
+        printf("app=\"%s\" title=\"%s\" size=%gx%g id=%d\n",
+               [currentApp UTF8String],
+               [currentWindowTitle UTF8String],
                currentBounds.size.width, currentBounds.size.height,
                [window[(NSString *)kCGWindowNumber] intValue]);
         continue;
