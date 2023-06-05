@@ -12,7 +12,7 @@ window (useful for screencapture).
 Via Homebrew:
 
 ```bash
-    brew install smokris/getwindowid/getwindowid
+    brew install gsbabil/getwindowid/getwindowid
 ```
 
 
